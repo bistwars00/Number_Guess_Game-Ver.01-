@@ -1,0 +1,96 @@
+body{
+    background-image: url(https://t1.daumcdn.net/cfile/blog/998863505AF9D77E14);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "East Sea Dokdo", cursive;
+    color:rgb(149, 187, 203);
+    }
+    
+    
+    .container {
+    border: 10px solid rgb(227, 242, 238);
+    border-radius: 20px;
+    height: 100vh;
+    text-align: center;
+    background-color:rgb(217, 221, 220);
+    opacity: 0.8;
+    }
+    
+    
+    .locate{
+    position: relative;
+    top: 10em;
+    right: 1em;
+    }
+    
+    .locate2{
+    position: relative;
+    font-size: 2em;
+    }
+    
+    .locate3{
+    position: relative;
+    left: 2em;
+    }
+    
+    
+    .white{
+        color:rgb(38, 64, 12, 0.507);
+    }
+    
+    .red{
+    color:rgb(82, 14, 14);
+    }
+    
+    .blue{
+    color:rgb(25, 25, 87);
+    }
+    
+    
+    .button1{
+    border-radius: 20px;
+    background-color:rgb(69, 112, 190);
+    color:rgb(255, 255, 255, 0.815);
+    }
+    
+    .button1:hover{
+    background-color:rgb(139, 164, 211);
+    }
+    
+    
+    .button2{
+    border-radius: 18px;
+    background-color:#66dbdb;
+    color:rgb(255, 255, 255, 0.815);
+    }
+    
+    .button2:hover{
+    background-color:#a4e5e5;
+    }
+    
+    .input{
+        border-radius: 20px;
+        background-color:rgb(189, 136, 113);
+    }
+    
+    
+    .result{
+    color:rgb(185, 130, 106);
+    }
+    
+    .result:hover{
+    color:#d9b073;
+    }
+    
+    .locate4{
+        position: relative;
+        left: 17em;
+        bottom: 14em;
+        width:16em;
+        border-radius: 1em;
+        opacity: 0.7;
+        }
