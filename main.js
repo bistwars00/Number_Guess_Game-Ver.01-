@@ -9,7 +9,7 @@ let resultArea = document.getElementById("result-area");
 
 let resetButton = document.getElementById("reset-button");
 
-let chances = 3;
+let chances = 5;
 
 let gameOver = false;
 
@@ -83,7 +83,7 @@ function reset(){
     userInput.value="";
     gameOver = false;
     playButton.disabled = false;
-    chances=3;
+    chances=5;
     resultArea.textContent="RESET!!!"  
     chanceArea.textContent=`남은 기회:${chances}`;
     history=[]; 
